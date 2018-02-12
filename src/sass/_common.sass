@@ -1,0 +1,43 @@
++font(Geometria, Geometria)
++font(Geometria-ExtraBold, Geometria-ExtraBold)
+body
+	font-family: "Geometria"
+	box-sizing: border-box 
+.center
+	max-width: 1280px
+	margin: 0 auto		
+	background-image: url('../img/bitmap.jpg')
+	background-repeat: no-repeat
+	background-size: 100% 100%
+	position: relative
+	z-index: 0
+	+clr
+	&:after
+		background-color: rgba(0, 0, 0, 0.4)
+		content: ''
+		display: block
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
+		z-index: -1
+.icon-fill-2
+	width: 23px
+	height: 23px
+.icon-inst
+	width: 17px
+	height: 17px
+	display: block
+	margin: 0 auto
+	position: relative
+	bottom: 10px
+	cursor: pointer	
+.icon-facebook
+	width: 17px
+	height: 17px
+	display: block
+	margin: 0 auto	
+	position: relative
+	bottom: -35px
+	cursor: pointer	
