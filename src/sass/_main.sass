@@ -1,5 +1,4 @@
 .header
-	height: 100%
 	position: relative
 	+clr
 .menu
@@ -36,20 +35,21 @@
 	padding: 31px 29px 27px 28px
 	cursor: pointer	
 .contacts
-	width: 70%
+	width: 80%
 	padding: 29px 0
 	float: right
 	+clr
-	+r(1100)
-		width: 65%	
+	+r(1606)
+		width: 75%
+	+r(1285)
+		width: 70%		
 .contacts__part
 	width: 50%
 	float: right
 	padding: 0 25px 0 0
 	text-align: center
 .contacts__btn	
-	float: right
-	margin: 0px 20px
+	margin: 0 auto
 	color: #fff
 	font-size: 12px
 	padding: 0 0 5px 0
@@ -63,10 +63,15 @@
 	font-size: 12px
 	color: #fff
 	font-weight: bold
+	text-align: center
+	float: left
+	width: 50%
 .contacts__info_big
 	font-size: 15px	
 .caption
-	padding: 217px 0		
+	position: absolute
+	top: 50%
+	transform: translateY(-50%)		
 .caption__text
 	font-family: Geometria-ExtraBold
 	font-size: 70px
@@ -75,14 +80,16 @@
 	font-weight: 800
 	line-height: normal
 	text-transform: uppercase
-	transform: translateX(237px)
+	margin: 0 auto
 	width: 70%
 	text-align: left	
 .footer
-	+clr	
+	+clr
 .nav-list
 	float: left
 	width: 85%
+	position: absolute
+	bottom: 0
 .nav-list__item
 	width: 20%
 	text-align: center
@@ -103,12 +110,15 @@
 .social
 	float: right
 	width: 80px
+	position: absolute
+	bottom: 0
+	right: 10px
 .partners
 	float: right
-	position: relative	
+	position: absolute
+	bottom: 30px	
+	right: 80px
 .partners__img
-	position: relative
-	bottom: -20px
 	cursor: pointer
 .more__btn
 	background-color: #353643
@@ -131,5 +141,5 @@
 		font-size: 15px
 .more
 	position: absolute
-	top: 200px
+	top: -100px
 	right: 20%		

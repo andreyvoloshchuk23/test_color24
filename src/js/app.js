@@ -1,3 +1,7 @@
-import sayHello from './lib/sayHello.js';
-
-sayHello();
+function heightDetect() {
+  $('.center').height($(window).height());
+};
+heightDetect();
+$(window).resize(function() {
+  $('.center').height($(window).height());
+});
